@@ -17,6 +17,7 @@ const Header = () => {
     <div className="navbar bg-primary text-primary-content">
       <button className="btn btn-ghost text-xl">Authentication</button>
       <Link className="btn btn-ghost text-xl" to="/">Home</Link>
+      <Link className="btn btn-ghost text-xl" to="/orders">Orders</Link>
       <Link className="btn btn-ghost text-xl" to="/register">Register</Link>
       <Link className="btn btn-ghost text-xl" to="/login">Login</Link>
     
